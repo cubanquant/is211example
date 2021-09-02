@@ -11,7 +11,9 @@ class BaseballPlayer:
 
     def display(self):
         """Display the Baseball player's name and team"""
-        print(f"I'm {self.name} and I play for {self.team}")
+
+        print(f"I'm a baseball player. My name is {self.name}.")
+        print(f"I play for {self.team}.")
 
 
 if __name__ == "__main__":
